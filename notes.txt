@@ -1,0 +1,35 @@
+
+# results = soup.find_all(href=re.compile("/month"))
+
+# for result in results:
+#     print(str(result))
+
+
+# results = soup.find_all('a')
+
+# for result in results:
+#     print(result.get('href'))
+
+
+# all_hrefs = [a.get('href') for a in soup.find_all(href=re.compile("/month"))]
+
+# import unidecode
+# string = unidecode.unidecode('Γιαννυς')
+# print(string)
+
+
+# from greek_stemmer import GreekStemmer
+# from greek_accentuation.characters import *
+#
+#
+# from greeklish.converter import Converter
+# myconverter = Converter(max_expansions=4)
+# print ( myconverter.convert(u'Γιάννης') )
+#
+# str = 'Γιάννης'
+# newstr = ''
+#
+# for i in range(0 ,len(str)):
+#     newstr += base(str[i])
+#
+# print(newstr)

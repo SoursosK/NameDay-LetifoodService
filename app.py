@@ -1,4 +1,4 @@
-import webScrapper
+import webScrapper_stemmingGreek
 
 # Init app
 # app = Flask(__name__)
